@@ -1,0 +1,311 @@
+body {
+	background: url("top_bg.png") repeat-x;
+    background-color: #FFFFFF;
+   	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 10px;
+}
+.clearFix {
+	clear: both;
+}
+
+#contentWrapper {
+	margin: auto;
+	width: 920px;
+}
+
+
+
+/*
+ * Header section
+ */
+#contentHeaderWrapper {
+	padding: 0;
+	margin: 0;
+	width: 920px;
+	height: 110px;
+	margin: auto;
+}
+
+#contentHeader {
+	margin-left: 20px;
+}
+
+#nslogo {
+	padding: 0;
+	float: left;
+	background:url("logo.png") no-repeat;
+	height:100px;
+	width: 90px;
+	margin-top: 10px;
+}
+#appTitle {
+	float: left;
+	padding: 0;
+	margin-top: 35px;
+	font-size: 18px;
+	color: #5F0C0F;
+}
+#greeting {
+	float: left;
+	font-size: 13px;
+	font-weight: 900;
+	margin-right: 10px;
+}
+	#greeting a {
+		text-decoration: none;
+		color: white;
+	}
+
+
+
+/*
+ * Menu section
+ */
+ #navMenu {
+ 	padding: 0;
+ 	margin: 0;
+	margin-left: 20px;
+ }
+ #navMenu #location {
+ 	float: left;
+ 	padding: 8px;
+ }
+ #navMenu ul {
+/*  	list-style: none; */
+ 	padding: 8px;
+ 	margin: 0;
+ 	float: right;
+ }
+ #navMenu ul li {
+ 	display: inline;
+ 	padding: 8px;
+ 	margin: 0;
+ 	border-left: #AFAFAF 1px solid;
+ }
+ #navMenu li:HOVER {
+ 	background-color: #E0E0E0;
+ }
+ #navMenu a {
+ 	text-decoration: none;
+ 	color: #5F0C0F;
+ }
+ 
+ 
+ 
+/*
+ * Body section
+ */
+#contentBody {
+	border: #AFAFAF 1px solid;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#contentBody #contentTitle {
+	font-size: 18px;
+	padding: 10px 50px;
+	float: left;
+	background: #a90329; /* old browsers */
+	background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* ie */
+	color: WHITE;
+}
+
+#midcontentBody {
+	margin: 30px 30px 30px 20px;
+}
+
+.tblForm td {
+	padding: 5px;
+}
+
+.tblForm input {
+	width: 200px;
+}
+
+.tblResult {
+	width: 100%;
+	font-size: 11px;
+	border: 1px dashed #ABABAB;
+	border-bottom: none;
+}
+
+.tblResult td,{
+	padding: 5px 0 2px 5px;
+}
+
+.tblResult tbody td {
+	border-bottom: 1px dashed #ABABAB;
+}
+
+.tblResult thead {
+	font-size: 14px;
+	background-color: #B7DDF2;
+}
+
+#contentFilters {
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+
+#contentFilters ul {
+	padding: 0;
+	margin: 10px 30px 0 0;
+}
+
+#contentFilters ul li {
+	display: inline;
+	
+}
+
+.pagination {
+	text-align: center;
+	margin: 10px 0 0 0;
+	font-size: 14px;
+}
+
+.pagination a {
+	margin: 0 4px;
+	text-decoration: none;
+	color: blue;
+}
+
+.pagination strong {
+	text-decoration: underline;
+}
+
+#agent_menu ul {
+	list-style: none;
+	padding: 0;
+}
+
+.frm_container {
+	margin-bottom: 10px;
+}
+.frm_heading {
+	font-size: 14px;
+	width: 400px;
+	border-bottom: 1px solid #F0F0F0;
+	font-weight: 900;
+}
+
+.frm_inputs {
+	padding-left: 15px;
+}
+
+.info_view tr td:first-child {
+	font-size: 12px;
+	padding-right: 10px;
+	text-align: right;
+	width: 120px; 
+	font-style: italic;
+	color: #6D6D6D;
+}
+
+.info_view tr td:nth-child(2) {
+	font-size: 13px;
+	color: #6D6D6D;
+}
+
+#prompt_success {
+	color: green;
+}
+
+#prompt_failed {
+	color: red;
+}
+
+.error {
+	color: red;
+	font-weight: 900;
+	margin-left: 10px;
+}
+
+#scheduler {
+	display: none;
+}
+
+
+/*
+ * Form Table
+ */
+.form_tbl tr {
+	padding: 5px;
+	height: 40px;
+}
+
+.form_tbl input, .form_tbl select {
+	width: 200px;
+	margin-left: 20px;
+}
+
+.form_tbl input, .form_tbl select {
+    margin-left: 20px;
+    width: 200px;
+}
+
+/*
+ * Footer section
+ */
+ #contentFooter {
+	margin-left: 20px;
+	padding: 8px;
+	border-bottom: 1px #AFAFAF solid;
+	color: #9F9F9F;
+ }
+ 
+ /*
+  * Widths
+  */
+ .w920 {
+ 	width: 920px;
+ }
+ 
+ .w800 {
+ 	width: 800px;
+ }
+ 
+ .w600 {
+ 	width: 600px;
+ }
+ 
+ .w500 {
+ 	width: 500px;
+ }
+ 
+ .w400 {
+ 	width: 400px;
+ }
+ 
+ /*
+  * Errors
+  */
+ .frmError {
+ 	color: #9E0000;
+ 	font-weight: 900;
+ }
+ 
+ .lead_info td {
+ 	padding: 4px;
+    border: 0.1rem solid #DDDDDD;
+    color: #3D3D3D;
+ }
+ 
+ .lead_info .info-label {
+ 	background-color: #E6EEEE;
+ 	font-weight: 900;
+ 	color: #000;
+ }
+ 
+ .light_bg {
+ 	background-color: #F5F5F5;
+ }
+ 
+ .dark_bg {
+ 	background-color: #DCDCDC;
+ }
+ 

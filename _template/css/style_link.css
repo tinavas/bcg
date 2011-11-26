@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+
+.row{
+	   background-color: #DEE6ED;
+}
+
+
+.row:hover{
+	background-color:#ABADAC;
+}
