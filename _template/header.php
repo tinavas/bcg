@@ -3,6 +3,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<title>Northstar Solutions Inc - BigCityGuide</title>
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="fav.ico" />
+		
 	    <link type="text/css" href="_template/css/style.css" rel="stylesheet" />
 	    <script type="text/javascript" src="_template/jquery/jquery.js"></script>  
 	    
@@ -55,7 +59,7 @@
 		<div id="contentHeaderWrapper">
 			<div id="contentHeader">
 				<div id="nslogo"></div>
-				<div id="appTitle">BigCityGuide Call Back Manager</div>
+				<div id="appTitle">BigCityGuide Callback Manager</div>
 			</div>
 		</div>
 		<div id="contentWrapper">

@@ -30,7 +30,6 @@ Class User extends Connection {
 				AND password = "'.$password.'"
 		';
 		
-		echo $query;
 		$result = mysql_query($query);
 		
 		if (mysql_num_rows($result) > 0)
@@ -51,7 +50,7 @@ Class User extends Connection {
 		$query = '
 			SELECT admin
 			FROM bcg_users
-			WHERE username_vici = "'.$username.'"
+			WHERE username_i3 = "'.$username.'"
 		';
 		
 		$result = mysql_query($query);

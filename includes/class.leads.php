@@ -312,7 +312,7 @@ Class Leads extends Connection {
 			SELECT *
 			FROM bcg_records a 
 			INNER JOIN bcg_record_info b
-			  ON a.lead_id = b.lead_id
+			  ON a.id = b.record_id
 			WHERE a.lead_id = ".$lead_id."
 		";
 		
