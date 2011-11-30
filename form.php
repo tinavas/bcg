@@ -223,6 +223,29 @@
 										<td><input type="submit" name="submit_form" value="Submit"/></td>
 									</tr>
 								</table>
+							</div><br /><br />
+							<div class="frm_heading">
+								<span>Card Information</span>
+							</div>
+							<div class="frm_inputs">
+								<table class="form_tbl">
+									<tr>
+										<td>Card Type:</td>
+										<td><input type="text" name="c_card_type" value="<?php echo $row->c_card_type; ?>"/></td>
+									</tr>
+									<tr>
+										<td>Card Number:</td>
+										<td><input type="text" name="c_card_number" value="<?php echo $row->c_card_number; ?>"/></td>
+									</tr>
+									<tr>
+										<td>Expiration:</td>
+										<td><input type="text" name="c_card_exp" value="<?php echo $row->c_card_exp; ?>"/></td>
+									</tr>
+									<tr>
+										<td></td>
+										<td><input type="submit" name="submit_form" value="Submit"/></td>
+									</tr>
+								</table>
 							</div>
 						</form>
 					</div>

@@ -118,7 +118,7 @@ Class Leads extends Connection {
 			SELECT *
 			FROM I3_NSI_BCG_CH0 a
 				INNER JOIN Calllist b ON a.i3_rowid = b.i3_rowid
-			WHERE a.finishcode = 'Personal Callback'
+			WHERE a.finishcode in ('Personal Callback', 'Personal Callback - Profile Created')
 				AND a.agentid = '".$this->agent."'
 		";
 		
